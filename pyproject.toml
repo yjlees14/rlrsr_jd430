@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yjlees14-rlrsr_jd430"
+version = "0.1.0"
+description = "按结构键把条目聚类，标出强化学习研究员·多机通信的带宽瓶颈上的同组项与各组的代表样本"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "yjlees14" }]
+keywords = ["cli", "analysis", "observability", "evaluation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://yjlees14.github.io"
+Repository = "https://github.com/yjlees14/rlrsr_jd430"
+Issues = "https://github.com/yjlees14/rlrsr_jd430/issues"
+
+[project.scripts]
+rlrsr_jd430 = "rlrsr_jd430:main"
+
+[tool.setuptools]
+py-modules = ["rlrsr_jd430"]
